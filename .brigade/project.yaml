@@ -17,3 +17,5 @@ spec:
   workerTemplate:
     git:
       cloneURL: https://github.com/brigadecore/int-test-tools.git
+    jobPolicies:
+      allowPrivileged: true
